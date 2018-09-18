@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Jiwon Shin | Physical Computing</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+</head>
+<body>
+<div id="content">
+    <div id="page-content">
+        <h5 class="entry-title">Week 2: Simple Switch System [LAB]</h5>
+        <p class="date-text">Sept 17, 2018</p>
+        <p>For this weeks lab of creating a simple switch system, I wanted to create a switch system that changes the brightness of the LEDs upon contact of each other. Rather than creating a simple break point between a closed circuit for a switch (so that the LED turns on and off), I wanted to see if I can change the value of resistance being used in the circuit to increase / decrease the current passing through the LEDs. After playing around with circuits, I came up with what I am calling "high five rings". The LEDs on the rings, when they come to contact with one another, will become brighter than they are when not in contact.</p>
+        <p><u>Materials used</u>:</p>
+        <ul>
+            <li>220<span>&#8486;</span> resistor * 2</li>
+            <li>10k<span>&#8486;</span> resistor * 2</li>
+            <li>Blue LED * 2</li>
+            <li>Conductive tape</li>
+            <li>Fabric tape</li>
+            <li>Wires</li>
+            <li>Breadboard</li>
+            <li>Arduino - <b>used ONLY to power the breadboard</b></li>
+        </ul>
+        <div class="two-grid">
+            <img alt="Illustrated diagram of circuits for the high five rings" class="two-grid-img" src="../assets/img/high-five-rings-diagram.jpg">
+            <img alt="Illustrated diagram of circuits for the high five rings" class="two-grid-img" src="../assets/img/high-five-rings-circuit.jpg">
+        </div>
+        <p>Above, the image on the left is my illustration of the circuit that I created for the rings. The exposed wire connected to the 5V power comes in contact to another piece of exposed wire connected between the 220<span>&#8486;</span> and 10K<span>&#8486;</span> resistors and brightens the LEDs. The image on the above right is a circuit diagram of one of the rings.</p>
+        <img alt="Image of final version of high five rings" class="mid-img" src="../assets/img/high-five-rings-img.jpg">
+        <p>Above image is a picture of the finished "product". Couple of things to note here is that the "exposed wire" part of diagram had to be covered with conductive tape for two reasons: 1) to fix its position and 2) to increase the area of contact. Additionally, fabric tape was used to separate out different parts of wiring of the ring that was exposed.</p>
+        <p>Below is a video documentation of how the interaction of the high five rings works:</p>
+        <div class="video-wrap">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3S0E1ltMdmc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <p><u>Stuff I learned</u>:</p>
+        <ul>
+            <li>It is good to constantly test the circuit to make sure everything is still connected the right way when permanently connecting / taping its sections.</li>
+            <li>The "connectedness" of the circuits to the breadboard make the interaction difficult. Next time, use batteries!</li>
+            <li>I twisted wires to secure them in place without having to solder. As a result, it was not pleasant when putting on / taking off the rings. It would probably have been good to heat shrinking rubber tubes!</li>
+        </ul>
+        <p><u>Stuff I'm still not sure of</u>:</p>
+        <ul>
+            <li>I wonder if this really is the best way to increase current. It doesn't seem particularly "safe" to have exposed wires. I think in this case, since the maximum voltage running through the circuit is only 5V, it is probably okay, but what would I do within a circuit that has higher current?</li>
+        </ul>
+
+    </div>
+    <div id="back-button">
+        <a target="_self" href="../index.html"><span id="back-button-text">BACK TO MAIN</span></a>
+    </div>
+</div>
+</body>
+<script src="../js/background.js"></script>
+</html>
