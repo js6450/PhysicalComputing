@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="debfa055-d993-4aa2-b079-65c6ca0741ce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/weekly/2a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="debfa055-d993-4aa2-b079-65c6ca0741ce" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -31,8 +26,8 @@
       <file leaf-file-name="2a.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/weekly/2a.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="39" column="127" selection-start-line="39" selection-start-column="127" selection-end-line="39" selection-end-column="127" />
+            <state relative-caret-position="375">
+              <caret line="40" column="219" selection-start-line="40" selection-start-column="219" selection-end-line="40" selection-end-column="219" />
             </state>
           </provider>
         </entry>
@@ -150,16 +145,15 @@
       <workItem from="1536547032314" duration="257000" />
       <workItem from="1536719605265" duration="4646000" />
       <workItem from="1536821879665" duration="111000" />
-      <workItem from="1537217258089" duration="4134000" />
+      <workItem from="1537217258089" duration="4370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9148000" />
+    <option name="totallyTimeSpent" value="9384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.10744811" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -313,8 +307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weekly/2a.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="39" column="127" selection-start-line="39" selection-start-column="127" selection-end-line="39" selection-end-column="127" />
+        <state relative-caret-position="375">
+          <caret line="40" column="219" selection-start-line="40" selection-start-column="219" selection-end-line="40" selection-end-column="219" />
         </state>
       </provider>
     </entry>
