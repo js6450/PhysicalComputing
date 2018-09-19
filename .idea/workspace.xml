@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="debfa055-d993-4aa2-b079-65c6ca0741ce" name="Default" comment="" />
+    <list default="true" id="debfa055-d993-4aa2-b079-65c6ca0741ce" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/weekly/2b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,11 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2a.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2a.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weekly/2a.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="40" column="219" selection-start-line="40" selection-start-column="219" selection-end-line="40" selection-end-column="219" />
+            <state relative-caret-position="300">
+              <caret line="16" column="35" selection-end-line="54" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2b.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weekly/2b.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="18" column="449" selection-start-line="18" selection-start-column="449" selection-end-line="18" selection-end-column="449" />
             </state>
           </provider>
         </entry>
@@ -57,10 +69,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/background.js" />
-        <option value="$PROJECT_DIR$/weekly/1.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/weekly/2a.html" />
+        <option value="$PROJECT_DIR$/weekly/1.html" />
+        <option value="$PROJECT_DIR$/weekly/2b.html" />
       </list>
     </option>
   </component>
@@ -145,24 +158,25 @@
       <workItem from="1536547032314" duration="257000" />
       <workItem from="1536719605265" duration="4646000" />
       <workItem from="1536821879665" duration="111000" />
-      <workItem from="1537217258089" duration="4370000" />
+      <workItem from="1537217258089" duration="6268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9384000" />
+    <option name="totallyTimeSpent" value="11282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.10744811" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.13085502" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25268817" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25268817" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -274,16 +288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weekly/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" selection-end-line="44" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#p#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/background.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -298,6 +302,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weekly/2a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="35" selection-end-line="54" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weekly/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -305,10 +326,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weekly/2a.html">
+    <entry file="file://$PROJECT_DIR$/weekly/2b.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="40" column="219" selection-start-line="40" selection-start-column="219" selection-end-line="40" selection-end-column="219" />
+        <state relative-caret-position="480">
+          <caret line="18" column="449" selection-start-line="18" selection-start-column="449" selection-end-line="18" selection-end-column="449" />
         </state>
       </provider>
     </entry>
