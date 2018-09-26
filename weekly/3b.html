@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Jiwon Shin | Physical Computing</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+</head>
+<body>
+<div id="content">
+    <div id="page-content">
+        <h5 class="entry-title">Week 3: Bouncing LEDs [LAB]</h5>
+        <p class="date-text">Sept 26, 2018</p>
+        <p>This week's lab of creating a simple application using digital / analog input and digital output, the inspiration started from wanting to creating something that mimicked the "ping-pong"-ing nature of a conversation / interaction between people. I wanted to create a physical visualization of the metaphor of one person's words bouncing off / ping-ponging to another person, then to another, then to another and so on. While working on this, I also realized that I was creating a sort of physical "bouncing ball". Hence I decided to call this physical device "Bouncing LEDs".</p>
+        <p><u>Materials used</u>:</p>
+        <ul>
+            <li>220<span>&#8486;</span> resistor * 5</li>
+            <li>10k<span>&#8486;</span> resistor * 5</li>
+            <li>Yellow LED * 5</li>
+            <li>Photo resistor (GM5539) * 5 (<a class="p-link" href="https://www.amazon.com/gp/product/B01N7V536K/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1">bought from here</a>)</li>
+            <li>Button Switch * 5</li>
+            <li>Cardboard</li>
+            <li>Fabric tape</li>
+            <li>Wires</li>
+            <li>Breadboard</li>
+            <li>Arduino</li>
+        </ul>
+        <div class="video-wrap">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IIf4gviow8s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <br>
+        <p>One thing that I would have liked to do, is to create buttons that don't have to live on the breadboard so that people could physically hold the button to provide a more direct correlation to the metaphor that I was inspired to create this physical device. However, there was enough "spaghetti" situation happening for the day and I wanted to focus more on perfecting the other aspects of the device.</p>
+        <br>
+        <p><u>Stuff I learned</u>:</p>
+        <ul>
+            <li>I used almost all of the available digital pins on my Arduino for this. Had I had another pair of LED - photo resistor, I would have run out of pins. Next time, as per Danny's suggestion, will look in to multiplexing or use another microcontroller that has more pins.</li>
+            <li>There are two different types of "light sensors": photo resistors and photo transistors. I used photo resistors for this because that was what I immediately thought was the sensor that I needed. Next time for light detection, will try photo transistors.</li>
+            <li>Wiring up multiple sets of the same components is as time consuming and difficult as I remembered. I tried to make sure to test out each part of the tape-connected circuits one by one during the fabrication process.</li>
+            <li>Setting up the appropriate amount of threshold to detect the light as "on", and not detect the adjacent light "on", was a process of seeing the numbers printed on the serial monitor and fine-tuning. However, I also realized that the overall amount of light in the room was also a VERY important factor.</li>
+        </ul>
+        <p><u>Stuff I'm still not sure of</u>:</p>
+        <ul>
+            <li>I wonder whether connecting the button switches to digital input pins was necessary. I am very inclined to say that it would have created the same effect if the switches were directly connected to the LEDs themselves. The reason why I didn't do so was because the circuits had already grown too messy and I thought it was simpler on the circuitry side to connect the switches to the digital pins and turn the corresponding LEDs on (HIGH) using code.</li>
+        </ul>
+        <p><u>Arduino Source Code</u>:</p>
+        <script src="https://gist.github.com/js6450/e88741984b374d42352b47d3b61be78d.js"></script>
+    </div>
+    <div id="back-button">
+        <a target="_self" href="../index.html"><span id="back-button-text">BACK TO MAIN</span></a>
+    </div>
+</div>
+</body>
+<script src="../js/background.js"></script>
+</html>
