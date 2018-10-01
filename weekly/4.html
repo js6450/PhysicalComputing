@@ -10,8 +10,8 @@
 <div id="content">
     <div id="page-content">
         <h5 class="entry-title">Week 3: Talk Seesaw [LAB]</h5>
-        <p class="date-text">Sept 30, 2018</p>
-        <p>This week's lab of creating a simple application, I've created the Talk Seesaw. It is an illustration of how a conversation between two people sway back and forth. The more one person on one end of the seesaw talks, the more the seesaw will swing down to that side. It also provides a "warning" system - if one person has talked for too long (when one end of the seesaw hits the ground), the speaker gives a warning "buzz".</p>
+        <p class="date-text">Oct 1, 2018</p>
+        <p>This week's lab of creating a simple application, I've created the Talk Seesaw. It is a visualization of how a conversation between two people sway back and forth. The more one person on one end of the seesaw talks, the more the seesaw will swing down to that side. It also provides a "warning" system - if one person has talked for too long (when one end of the seesaw hits the ground), the speaker gives warning "buzzes".</p>
         <p><u>Materials used</u>:</p>
         <ul>
             <li>10k<span>&#8486;</span> resistor * 2</li>
@@ -24,21 +24,20 @@
             <li>Arduino</li>
         </ul>
         <div class="video-wrap">
-            <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/IIf4gviow8s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
-        </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bMJna1Vc5EM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>        </div>
         <br>
-        <p></p>
-        <br>
+        <p>The final product ended up not doing exactly what I wanted to do - but still sort of illustrates the original intentions. The microphones that I purchased for this project ended up not being "sensitive" enough to detect the level of amplitude of the environment. I opted to buy the cheaper and simpler microphone, and not the ones that also have a built in amplifier, and this resulted in having to tap on the mic, rather than being able to speak directly to it.</p>
         <p><u>Stuff I learned</u>:</p>
         <ul>
-            <li></li>
+            <li>Building a simple "calibrating" function that calculates what the "average" sensor value is at the beginning of operation is useful to have - it prevents having to constantly change the threshold value every single time the surrounding environment changes.</li>
+            <li>Even with the calibrating function, it still required some "manual" changes to adjusting the threshold value more accurately. I think my case was hugely due to the fact that the microphones were just not sensitive.</li>
         </ul>
         <p><u>Stuff I'm still not sure of</u>:</p>
         <ul>
-            <li></li>
+            <li>I am wondering how hard it would be to build an amplifier for the microphone myself. I did look up how I would be able to do it, and it seems like there are many, many different ways of achieving this.</li>
         </ul>
         <p><u>Arduino Source Code</u>:</p>
-        <!--<script src="https://gist.github.com/js6450/e88741984b374d42352b47d3b61be78d.js"></script>-->
+        <script src="https://gist.github.com/js6450/22c12e45d9f530a9897d1e797bc95767.js"></script>
         <br>
         <hr>
         <br>
