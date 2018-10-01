@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Jiwon Shin | Physical Computing</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+</head>
+<body>
+<div id="content">
+    <div id="page-content">
+        <h5 class="entry-title">Week 3: Talk Seesaw [LAB]</h5>
+        <p class="date-text">Sept 30, 2018</p>
+        <p>This week's lab of creating a simple application, I've created the Talk Seesaw. It is an illustration of how a conversation between two people sway back and forth. The more one person on one end of the seesaw talks, the more the seesaw will swing down to that side. It also provides a "warning" system - if one person has talked for too long (when one end of the seesaw hits the ground), the speaker gives a warning "buzz".</p>
+        <p><u>Materials used</u>:</p>
+        <ul>
+            <li>10k<span>&#8486;</span> resistor * 2</li>
+            <li>Electret Microphone * 2 (<a class="p-link" href="https://www.adafruit.com/product/1064?gclid=Cj0KCQjw6MHdBRCtARIsAEigMxFnNuuj-oN9-1G4R6oZOnFKNu8uoqX6EMxMts-IXlcjtxsOKCa1OTsaAiq3EALw_wcB">bought from here</a>)</li>
+            <li>Enclosed Piezo Element * 2 (<a class="p-link" href="https://www.adafruit.com/product/1739">bought from here</a>)</li>
+            <li>180 degrees Servo Motor</li>
+            <li>Cardboard</li>
+            <li>Wires</li>
+            <li>Breadboard</li>
+            <li>Arduino</li>
+        </ul>
+        <div class="video-wrap">
+            <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/IIf4gviow8s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+        </div>
+        <br>
+        <p></p>
+        <br>
+        <p><u>Stuff I learned</u>:</p>
+        <ul>
+            <li></li>
+        </ul>
+        <p><u>Stuff I'm still not sure of</u>:</p>
+        <ul>
+            <li></li>
+        </ul>
+        <p><u>Arduino Source Code</u>:</p>
+        <!--<script src="https://gist.github.com/js6450/e88741984b374d42352b47d3b61be78d.js"></script>-->
+        <br>
+        <hr>
+        <br>
+        <p><u>Week 4's Self-graded Quiz</u>:</p>
+        <p><b>Question 1</b>: Microcontrollers read a variable input using an analog-to-digital circuit inside the controller. The Arduino Uno can read the input voltage with a resolution of 10 bits using the analogRead() command. Give the numeric range (in base 10) for this resolution. How much memory does this take up?</p>
+        <p style="background: rgba(255, 255, 255, 0.5); padding: 1em 0.5em;">analogRead will return values between 0 and 1023. The size of this data is 10bits. As the data will keep updating according to the input of the sensor itself, the memory of this incoming data is always 10 bits.</p>
+        <p><b>Question 2</b>: Two resistors in series create a voltage divider. When one of the resistors is a variable resistor, they can be used to create an analog input to a microcontroller. Describe or draw the schematic for this circuit.</p>
+        <p style="background: rgba(255, 255, 255, 0.5); padding: 1em 0.5em;">V + -> variable resistor -> Analog IN -> static resistor -> GND<br>
+        This way, as the variable resistor changes in resistance, analog input changes. The static resistor acts as pull down resistor to prevent from short circuit.</p>
+        <p><b>Question 3</b>: A potentiometer is a variable resistor in which a wiper moves across the surface of the resistor, creating a variable resistance. Describe or draw the schematic for connecting a potentiometer to a microcontroller’s analog input pin.</p>
+        <p style="background: rgba(255, 255, 255, 0.5); padding: 1em 0.5em;">A potentiometer has 3 pins: to power, ground and analog input. The two pins on the ends of the potentiometer go either to ground or power. The middle pin goes into analog input of the microcontroller.</p>
+        <p><b>Question 4</b>: How can you test the output of an analog sensor before connecting an analog sensor to your microcontroller’s analog input?</p>
+        <p style="background: rgba(255, 255, 255, 0.5); padding: 1em 0.5em;">You can connect the analog output pin of the sensor to an LED (with a 220 ohm resistor also) to see the brightness of the LED change as the value of the sensor changes.</p>
+        <p><b>Question 5</b>: Imagine you used analogRead() to read an analog input. You got a reading of 10. Assume an analog input voltage range from 0 to 5 V. What is the voltage of your reading?</p>
+        <p style="background: rgba(255, 255, 255, 0.5); padding: 1em 0.5em;">The voltage that I am reading is (10 / 1023) * 5, which is approximately 0.05 V.</p>
+        <p><b>Question 6</b>: Under the same conditions as the last question, what’s the voltage difference when the reading difference is 1 point? For example, what’s the voltage difference between a reading of 10 and a reading of 11?</p>
+        <p style="background: rgba(255, 255, 255, 0.5); padding: 1em 0.5em;">The voltage difference between 1 point (between 10 and 11) is (1 / 1023) * 5, which is approximately 0.005 V.</p>
+        <p><b>Question 7</b>: Assume the analog input voltage range is 0 to 3.3 volts instead of 5 volts. What are the answers for the previous two questions now?</p>
+        <p style="background: rgba(255, 255, 255, 0.5); padding: 1em 0.5em;">The answer to question 5 is now (10 / 1023) * 3.3, which is approximately 0.03 V, and the answer to question 6 now is (1 / 1023) * 3.3 which is approximately 0.003 V.</p>
+        <p><b>Question 8</b>: Most microcontrollers cannot output a true analog voltage. Instead they create a pseudo-analog voltage by producing a series of pulses. What is this principle called? What property of the pulses is the microcontroller changing in order to produce this effect?</p>
+        <p style="background: rgba(255, 255, 255, 0.5); padding: 1em 0.5em;">The principle is called PWM (Pulse With Modulation). The microcontroller changes the pulse width within a given time period (1ms) , thus changing the duty, a ratio of pulse width to time period.</p>
+        <p><b>Question 9</b>: The principle described in the previous question is used by Arduino’s analogWrite()command. What property of the pulses is controlled by the tone() command?</p>
+        <p style="background: rgba(255, 255, 255, 0.5); padding: 1em 0.5em;">The tone() function changes the pulse width within a given time period (duty) to change the frequency (in Hertz) to be sent to a speaker to produce as sound.</p>
+        <p><b>Question 10</b>: What is the resolution of the output from Arduino’s analogWrite() command? Give a decimal numeric range.</p>
+        <p style="background: rgba(255, 255, 255, 0.5); padding: 1em 0.5em;">The range of numbers that can be passed to analogWrite() is between 0 - 255 (8 bits).</p>
+        <p><b>Question 11</b>: Write a program to read an analog input on an Arduino, map the result to the range you just cited, and fade an LED or play a tone on a speaker.</p>
+        <pre style="background: rgba(255, 255, 255, 0.5); padding: 1em 0.5em;">
+    #define sensor A0
+    #define led 9
+
+    void setup(){
+    pinMode(led, OUTPUT);
+    }
+
+    void loop(){
+    int sensorVal = analogRead(sensor);
+    int ledVal = int(map(sensorVal, 0, 1023, 0, 255));
+
+    analogWrite(led, ledVal);
+    }
+        </pre>
+    </div>
+    <div id="back-button">
+        <a target="_self" href="../index.html"><span id="back-button-text">BACK TO MAIN</span></a>
+    </div>
+</div>
+</body>
+<script src="../js/background.js"></script>
+</html>
