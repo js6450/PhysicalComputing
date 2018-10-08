@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Jiwon Shin | Physical Computing</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+</head>
+<body>
+<div id="content">
+    <div id="page-content">
+        <h5 class="entry-title">Week 5: Op Amp for Microphone [LAB]</h5>
+        <p class="date-text">Oct 8, 2018</p>
+        <p>For this week's lab, I decided to solve the problem that I fasted with my <a class="p-link" target="_blank" href="4.html">Talk Seesaw</a> that I made for last week's lab. The issue that I faced was that the microphone inputs were not sensitive enough to detect whether someone was talking or not. After an office hour with Danny Rozin, I discovered that I needed to build an operational amplifier for my microphones. After researching for diagrams online, I found <a class="p-link" target="_blank" href="https://lowvoltage.wordpress.com/2011/05/21/lm358-mic-amp/">this tutorial on building the LM358 microphone amplifier</a>. I built mine based on the diagram provided on the tutorial website.</p>
+        <p><u>Materials used</u>:</p>
+        <ul>
+            <li>Electret Microphone (<a class="p-link" href="https://www.adafruit.com/product/1064?gclid=Cj0KCQjw6MHdBRCtARIsAEigMxFnNuuj-oN9-1G4R6oZOnFKNu8uoqX6EMxMts-IXlcjtxsOKCa1OTsaAiq3EALw_wcB">bought from here</a>)</li>
+            <li>1k&#8486; Resistor</li>
+            <li>10k&#8486; Resistor * 3</li>
+            <li>100k&#8486; Resistor</li>
+            <li>10uF Capacitor</li>
+            <li>100nF Capacitor</li>
+            <li>LM358 Operational Amplifier</li>
+            <li>Arduino Uno</li>
+        </ul>
+        <div class="two-grid">
+            <img alt="Illustrated diagram of circuits for the high five rings" class="two-grid-img" src="../assets/img/opAmp-diagram.jpg">
+            <img alt="Illustrated diagram of circuits for the high five rings" class="two-grid-img" src="../assets/img/opAmp-img.jpg">
+        </div>
+        <p>After I had built my circuit, I printed out the analog in values on the serial monitor and realized that the values were "popping". Then I went back to read more on the tutorial blog that I was following to build the circuit (because I remembered that the writer found the result of this circuit quite decent), and it turns out that the raw input of the microphone is SUPPOSED to fluctuate with (theoretically) 512 as the 0 base. So, in order for me to actually visualize how the numbers were coming in, I decided to use Processing to visualize these values.</p>
+        <div class="video-wrap">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FOHskgGxv38" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <p>In the above video, the white dots are visualization of the raw readings. After just simply visualizing the raw data itself, I realized that what I needed for the Talk Seesaw was to measure the amplitude. In order to measure the amplitude, I had to map the raw analog readings to a float number between -1 and 1, then to get the average of the last 10 absolute readings of the mapped amplitude data. In the above video, the amplitude is represented as red dots. Below is my code for the visualizer built using Processing.</p>
+        <p><u>Processing code (& Arduino code as comments) for visualizing raw mic input & calculated amplitude</u>:</p>
+        <script src="https://gist.github.com/js6450/c19305b8e6c504ee832c17f7842f8aa4.js"></script>
+        <p>After I was able to visually check that I was calculating the amplitude correctly, I moved the amplitude calculation code from Processing to Arduino. Below code uses the calculated amplitude value for brightness of the LED connected on digital out (PWM) pin 9. I had to create an if statement to ignore amplitude values if it was less than 0.3, because this seemed to be either the background noise or the noise from the sensor itself.</p>
+        <p><u>Arduino code for measuring mic amplitude</u>:</p>
+        <script src="https://gist.github.com/js6450/f2c286d6ccddde4b874e09b750cc93a3.js"></script>
+        <p><u>Stuff I learned</u>:</p>
+        <ul>
+            <li>Op amplifiers really did solve my problem of amplifying the microphone input. It is not amazingly sensitive, but it actually does more than what I expected it to do.</li>
+            <li>Visualizing the numbers on Processing really helped me think about what sort of numbers are being received by the arduino from the sensor. I think I will use this tactic more often.</li>
+        </ul>
+        <p><u>Stuff I'm still not sure of</u>:</p>
+        <ul>
+            <li>I used the circuit diagram from <a class="p-link" target="_blank" href="https://lowvoltage.wordpress.com/2011/05/21/lm358-mic-amp/">this tutorial on building the LM358 microphone amplifier</a>, and it seems like it works. I'm still not really fully sure of what exactly is happening on my circuit!</li>
+        </ul>
+    </div>
+    <div id="back-button">
+        <a target="_self" href="../index.html"><span id="back-button-text">BACK TO MAIN</span></a>
+    </div>
+</div>
+</body>
+<script src="../js/background.js"></script>
+</html>
