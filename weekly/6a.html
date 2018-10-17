@@ -2,6 +2,7 @@
 <html lang="en">
 <meta charset="UTF-8">
 <title>Jiwon Shin | Physical Computing</title>
+<link href="../favicon.ico" rel="icon" type="image/x-icon" />
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
@@ -11,15 +12,20 @@
     <div id="page-content">
         <h5 class="entry-title">Week 6: Midterm Project Proposal</h5>
         <p class="date-text">Oct 16, 2018</p>
-        <p>For the midterm project, I am working with Becca Moore. After series of discussions, we have settled on the idea of creating a physical device that displays the "trapped souls". The inspirations of this project comes from Yoko Ono's We Are All Water.</p>
+        <p>For the midterm project, I am working with <a class="p-link" href="https://30km-s.blog/">Becca Moore</a>. After series of discussions, we have settled on the idea of creating a physical device that displays the "trapped souls". The inspirations of this project comes from Yoko Ono's We Are All Water.</p>
         <div class="two-grid">
             <img class="two-grid-img" src="../assets/img/all-water-01.jpg">
             <img class="two-grid-img" src="../assets/img/all-water-02.jpg">
         </div>
-        <p>Similiar to how Ono represents people as bottles, </p>
+        <p>Similiar to how Ono represents people as bottles, we are going to take a more "direct" approach and trap images of people's heads inside of a clear bottle-shaped physical device.</p>
         <img class="mid-img" src="../assets/img/ship-bottle.jpg">
+        <p>The trapped souls / heads will look like ships in bottles. We want to create a device that visually makes the heads look as if floating in mid air. Hence, we decided to use the <a class="p-link" href="https://en.wikipedia.org/wiki/Pepper%27s_ghost">pepper's ghost</a> technique using acrylic and our mobile phone.</p>
         <img class="mid-img" src="../assets/img/peppers-ghost.gif">
+        <p>We quickly found a piece of acrylic that we can use to hold up against at about 45 degree angle against our phone screen. Despite the fact that the above video was taken in broad daylight, The acrylic gave us clear reflections of the phone's display. If we could cover up all parts of the phone except for the actual browser display, it seems like we will be able to achieve the visual look of floating fairly well.</p>
+        <p>The interaction that we are envisioning that the users' would have with this devices is for them to try to pick up and shake the bottle. If the bottle is shook around, the head would move around as well. If the bottle is flipped upside down and shaken, then the soul would be released - the head would look as if flowing out of the bottle.</p>
+        <p>To achieve the described interaction above, we would have to measure the motion and position of the device. We are planning on using the ADXL345 3-axis accelerometer.</p>
         <img class="mid-img" src="../assets/img/model.jpg">
+        <p>All of the above things considered, Becca created a sketch of what our device would look like. We have considered where the phone would fit in as well as the Arduino and the accelerometer, to make the device more stand-alone.</p>
     </div>
     <div id="back-button">
         <a target="_self" href="../index.html"><span id="back-button-text">BACK TO MAIN</span></a>
