@@ -13,7 +13,7 @@ let xMin, xMax, yMin, yMax;
 let imgWidth;
 
 let xWind, yWind;
-let windMax = 4;
+let windMax = 5;
 
 let fMag = 0.4;
 
@@ -25,23 +25,22 @@ let escapeDuration = 6000;
 
 function preload(){
     img = loadImage("assets/img/jiwon.png");
-
     // for(let i = 0; i < 3; i++){
     //     heads[i] = loadImage("assets/img/" + i + ".png");
     // }
 }
 
 function setup(){
-    serial = new p5.SerialPort(ipAddr);
-
-    serial.on('list', printList);
-    serial.on('connected', serverConnected);
-    serial.on('open', portOpen);
-    serial.on('data', serialEvent);
-    serial.on('error', serialError);
-    serial.on('close', portClose);
-
-    serial.open(portName);
+    // serial = new p5.SerialPort(ipAddr);
+    //
+    // serial.on('list', printList);
+    // serial.on('connected', serverConnected);
+    // serial.on('open', portOpen);
+    // serial.on('data', serialEvent);
+    // serial.on('error', serialError);
+    // serial.on('close', portClose);
+    //
+    // serial.open(portName);
 
     createCanvas(windowWidth, windowHeight);
 
@@ -101,9 +100,13 @@ function draw(){
         }
     }
 
-    noFill();
-    stroke(255);
-    rect(xMin, yMin, imgWidth, imgWidth);
+    // noFill();
+    // stroke(255);
+    //rect(xMin, yMin, imgWidth, imgWidth);
+
+    if(frameCount % 120 == 0 && escapeAttempt > 0){
+        escapeAttempt--;
+    }
 
 }
 
@@ -243,7 +246,7 @@ class Particle{
     display(){
         push();
         translate(this.pos.x, this.pos.y);
-        rotate(frameCount * this.aSpeed);
+        //rotate(frameCount * this.aSpeed);
 
         if(this.currentA < this.a){
             this.currentA += 2;

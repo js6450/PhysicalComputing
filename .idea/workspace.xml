@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="debfa055-d993-4aa2-b079-65c6ca0741ce" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/img/model.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/model.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/midterm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/midterm/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly/6a.html" beforeDir="false" afterPath="$PROJECT_DIR$/weekly/6a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekly/6b.html" beforeDir="false" afterPath="$PROJECT_DIR$/weekly/6b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/midterm/js/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/midterm/js/sketch.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,25 +22,34 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="background.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/background.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6a.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="6a.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weekly/6a.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="26" column="235" selection-start-line="26" selection-start-column="235" selection-end-line="26" selection-end-column="235" />
+            <state relative-caret-position="510">
+              <caret line="27" column="240" selection-start-line="27" selection-start-column="240" selection-end-line="27" selection-end-column="240" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/midterm/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sketch.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/midterm/js/sketch.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-719">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
             </state>
           </provider>
         </entry>
@@ -53,8 +59,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -73,12 +79,13 @@
         <option value="$PROJECT_DIR$/weekly/4.html" />
         <option value="$PROJECT_DIR$/weekly/5.html" />
         <option value="$PROJECT_DIR$/weekly/6.html" />
-        <option value="$PROJECT_DIR$/midterm/js/sketch.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/weekly/6b.html" />
-        <option value="$PROJECT_DIR$/midterm/index.html" />
         <option value="$PROJECT_DIR$/weekly/6a.html" />
+        <option value="$PROJECT_DIR$/midterm/js/videoPixelate.js" />
+        <option value="$PROJECT_DIR$/midterm/index.html" />
+        <option value="$PROJECT_DIR$/midterm/js/sketch.js" />
       </list>
     </option>
   </component>
@@ -112,7 +119,36 @@
             <path>
               <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
+              <item name="midterm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
+              <item name="midterm" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
+              <item name="midterm" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
+              <item name="midterm" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
@@ -131,6 +167,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/midterm/assets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,25 +205,26 @@
       <workItem from="1538632797995" duration="36000" />
       <workItem from="1539026581478" duration="2819000" />
       <workItem from="1539034607570" duration="4000" />
-      <workItem from="1539368219592" duration="21574000" />
+      <workItem from="1539368219592" duration="24958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42852000" />
+    <option name="totallyTimeSpent" value="46236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17540687" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17540687" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25268817" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25268817" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -191,7 +233,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,13 +242,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/weekly/5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="197" selection-start-line="42" selection-start-column="197" selection-end-line="42" selection-end-column="197" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weekly/2a.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -508,31 +542,10 @@
     <entry file="file://$PROJECT_DIR$/midterm/assets/img/jiwon-head.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/midterm/js/sketch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="213" column="35" selection-start-line="213" selection-start-column="35" selection-end-line="213" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="163" column="1" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/midterm/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -550,10 +563,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/midterm/js/videoPixelate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="218" column="49" selection-start-line="218" selection-start-column="49" selection-end-line="218" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/midterm/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weekly/6a.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="26" column="235" selection-start-line="26" selection-start-column="235" selection-end-line="26" selection-end-column="235" />
+        <state relative-caret-position="510">
+          <caret line="27" column="240" selection-start-line="27" selection-start-column="240" selection-end-line="27" selection-end-column="240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/midterm/js/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-719">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>
