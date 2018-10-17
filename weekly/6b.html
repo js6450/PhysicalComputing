@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+<meta charset="UTF-8">
+<title>Jiwon Shin | Physical Computing</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
 </head>
 <body>
-$END$
+<div id="content">
+    <div id="page-content">
+        <h5 class="entry-title">Week 6: Visual Talk Seesaw [LAB]</h5>
+        <p class="date-text">Oct 16, 2018</p>
+        <p>For this week's serial communication lab, I made a visual version of the Talk Seesaw that I made for week 4's lab.</p>
+        <img class="mid-img" src="../assets/img/visual-voice-seesaw.jpg">
+        <p>I made two sets of operational amps, that I built for last week's lab, for each of the microphones. Then I am sending the raw analogRead values from each of the microphones from the Arduino to the p5 web editor through serial communication. I am sending the two values in the format of "firstValue, secondValue" so that on the p5 side, I can split the values where the comma character is. The values are received using the readLine() function rather than read() in order to consider the new line character as the next data input from the Arduino.</p>
+        <div class="video-wrap">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iVDQiKH7tRw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <p>The code is available this <a href="https://editor.p5js.org/js6450/sketches/SJ5ebDGjX" class="p-link">p5 web editor file</a>. The Arduino code is also included in the sketch.js file as comments at the bottom.</p>
+    </div>
+    <div id="back-button">
+        <a target="_self" href="../index.html"><span id="back-button-text">BACK TO MAIN</span></a>
+    </div>
+</div>
 </body>
+<script src="../js/background.js"></script>
 </html>

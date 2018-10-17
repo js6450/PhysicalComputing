@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="debfa055-d993-4aa2-b079-65c6ca0741ce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/midterm/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/midterm/js/sketch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly/6a.html" beforeDir="false" afterPath="$PROJECT_DIR$/weekly/6a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly/6b.html" beforeDir="false" afterPath="$PROJECT_DIR$/weekly/6b.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,35 +22,26 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="97" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weekly/5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="197" selection-start-line="42" selection-start-column="197" selection-end-line="42" selection-end-column="197" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2a.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weekly/2a.html">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
-              <caret line="36" column="14" selection-start-line="36" selection-end-line="37" />
+              <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+      <file leaf-file-name="6b.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weekly/6b.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="118" column="1" selection-end-line="151" selection-end-column="1" />
+            <state relative-caret-position="300">
+              <caret line="17" column="168" selection-start-line="17" selection-start-column="168" selection-end-line="17" selection-end-column="168" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6a.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weekly/6a.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -57,17 +49,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/midterm/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="45">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sketch.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sketch.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/midterm/js/sketch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="267">
+              <caret line="213" column="35" selection-start-line="213" selection-start-column="35" selection-end-line="213" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -77,8 +69,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -95,11 +87,14 @@
         <option value="$PROJECT_DIR$/weekly/2b.html" />
         <option value="$PROJECT_DIR$/weekly/3a.html" />
         <option value="$PROJECT_DIR$/weekly/3b.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/weekly/4.html" />
         <option value="$PROJECT_DIR$/weekly/5.html" />
         <option value="$PROJECT_DIR$/midterm/index.html" />
+        <option value="$PROJECT_DIR$/weekly/6.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/midterm/js/sketch.js" />
+        <option value="$PROJECT_DIR$/weekly/6b.html" />
+        <option value="$PROJECT_DIR$/weekly/6a.html" />
       </list>
     </option>
   </component>
@@ -112,7 +107,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -133,6 +128,17 @@
             <path>
               <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -144,14 +150,25 @@
               <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
               <item name="midterm" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
+              <item name="midterm" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
               <item name="midterm" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
+              <item name="weekly" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,25 +215,25 @@
       <workItem from="1538632797995" duration="36000" />
       <workItem from="1539026581478" duration="2819000" />
       <workItem from="1539034607570" duration="4000" />
-      <workItem from="1539368219592" duration="243000" />
+      <workItem from="1539368219592" duration="17696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21521000" />
+    <option name="totallyTimeSpent" value="38974000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14044605" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17540687" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25268817" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25268817" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -235,13 +252,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="97" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weekly/5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -529,10 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="97" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="97" />
+        <state relative-caret-position="195">
+          <caret line="118" column="1" selection-end-line="151" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -545,29 +555,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weekly/5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="197" selection-start-line="42" selection-start-column="197" selection-end-line="42" selection-end-column="197" />
+        <state relative-caret-position="60">
+          <caret line="16" column="25" selection-end-line="55" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/midterm/js/lib/p5.serialport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="118" column="1" selection-end-line="151" selection-end-column="1" />
+        <state relative-caret-position="375">
+          <caret line="25" column="22" lean-forward="true" selection-end-line="750" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/midterm/index.html">
+    <entry file="file://$PROJECT_DIR$/midterm/assets/img/jiwon-head.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="540">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/midterm/js/sketch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="267">
+          <caret line="213" column="35" selection-start-line="213" selection-start-column="35" selection-end-line="213" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/midterm/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weekly/6b.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="168" selection-start-line="17" selection-start-column="168" selection-end-line="17" selection-end-column="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weekly/6a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
         </state>
       </provider>
     </entry>
