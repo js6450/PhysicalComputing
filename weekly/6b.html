@@ -11,7 +11,7 @@
     <div id="page-content">
         <h5 class="entry-title">Week 6: Visual Talk Seesaw [LAB]</h5>
         <p class="date-text">Oct 16, 2018</p>
-        <p>For this week's serial communication lab, I made a visual version of the Talk Seesaw that I made for week 4's lab.</p>
+        <p>For this week's serial communication lab, I made a visual version of the Talk Seesaw that I made for week 4's lab. Below is the screen capture of the visualization.</p>
         <img class="mid-img" src="../assets/img/visual-voice-seesaw.jpg">
         <p>I made two sets of operational amps, that I built for last week's lab, for each of the microphones. Then I am sending the raw analogRead values from each of the microphones from the Arduino to the p5 web editor through serial communication. I am sending the two values in the format of "firstValue, secondValue" so that on the p5 side, I can split the values where the comma character is. The values are received using the readLine() function rather than read() in order to consider the new line character as the next data input from the Arduino.</p>
         <div class="video-wrap">
