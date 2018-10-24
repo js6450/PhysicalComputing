@@ -1,10 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+<meta charset="UTF-8">
+<title>Jiwon Shin | Physical Computing</title>
+<link href="../favicon.ico" rel="icon" type="image/x-icon" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
 </head>
 <body>
-$END$
+<div id="content">
+    <div id="page-content">
+        <h5 class="entry-title">Week 7: Midterm Project</h5>
+        <p class="date-text">Oct 24, 2018</p>
+        <p>In collaboration with <a class="p-link" href="https://30km-s.blog/">Becca Moore</a>, we created Trapped Souls, as per described in the <a href="6a.html">project proposal</a>.</p>
+        <p>We had a clear idea of what our visuals to be displayed using the Pepper's Ghost mechanism would look like. The visuals were created by loading pixels of images in png format and iterated through the pixels (initially in increments of 5 pixels, later in 12 pixels -- reason for this will be explained further in this project documentation) to generate Particle objects wherever the pixel had a color value. Some physics functions were added to the Particle object, such as force (wind), friction, attraction and restitution. What was to be controlled using the inputs of the 3-axis accelerometer were the amount of wind in x and y position and the scale of the whole canvas using the z position. The wind in x and y direction are used to disturb the original location of the particle objects as the physical object gets moved around and the scale is used to create an effect of the visuals zooming in and out as it tilts back and forth. After creating the visuals, we needed to see the numbers received from the accelerometer to be able to constrain and map the values appropriately to match the wind direction and amount.</p>
+        <p>A basic Arduino code was created by using the Seeed studio's ADXL345 accelerometer library and Serial printing the x, y, z and acceleration x, y z values to be communicated to the p5 sketch via <a target="_blank" class="p-link" href="https://github.com/vanevery/p5.serialport">p5.SerialPort application / library</a> created by Shawn Van Every.</p>
+        <img class="mid-img" src="../assets/img/midterm0_3axis-test.gif">
+        <p>Above image is how the visuals were controlled after basic mapping, with no constraining of the values received from Arduino. At this point, serial communication from the Arduino was done via the USB cable. In hindsight, I think we could also have constrained the values on the Arduino side before the values for serial communicated over to p5, but I don't know how much difference it would have made in terms of latency. As for ease of coding, I think sending raw values from the accelerometer to be visible on the p5 sketch and the javascript console window was very helpful as the values could be monitored in more or less real time to be applied to manipulating the particle visuals.</p>
+        <img class="mid-img" src="../assets/img/midterm1_first-prototype.gif">
+        <p>While I was coding the visuals, Becca worked on creating the first prototype of the physical object that would create the hologram using the Pepper's Ghost mechanism. She was able to create a prototype out of paper and a CD case that acted as an excellent reflective surface. It also had the perfect dimensions for creating the maximum size hologram for a phone screen, which is why we ended up using almost the exact dimensions of it for our final product.</p>
+        <img class="mid-img" src="../assets/img/midterm2_first-prototype-with-arduino.gif">
+        <p>We did some tests with our working code running on our mobile phone placed inside of the prototype that Becca made. The accelerometer and the Arduino were not placed inside of the prototype yet for the ease of controlling the accelerometer and also because the prototype seemed not as rigid as we would like it to be to be picked up and moved around. To project our p5 sketch on our phone, all we had to do was to simply refer to the ip address shown on the p5.SerialPort application when creating the SerialPort object on the p5 sketch.</p>
+        <p> As we were happy with the overall dimensions of the prototype, we decided to laser cut. We used the <a target="_blank" class="p-link" href="http://www.makercase.com/">Maker Case </a> website to generate the basic designs of our boxes with finger joints. Before we cut on our acrylic sheets, we decided to do a test print on cardboard to see if our designs would actually assemble.</p>
+        <img class="mid-img" src="../assets/img/midterm3_first-laser-cut-issue.jpg">
+        <p>Our print of the first iteration of laser cut design showed us that we had made a critical mistake. Because we wanted to generate the two separate casings, one for the hologram, and another for the electronic compontents to give us room to move around the electronics in and out, the finger joints of the two casings did not match.</p>
+        <img class="mid-img" src="../assets/img/midterm4_laser-cut-fix.jpg">
+        <p>We had to manually fix the joints to make sure that they would all fit on top of each other as a one whole connected piece.</p>
+        <img class="mid-img" src="../assets/img/midterm5_hardware-wiring.jpg">
+        <p>Here is the point where we decided to make our electronic components "wireless" by using the <a class="p-link" target="_blank" href="https://www.adafruit.com/product/1588?gclid=Cj0KCQjwsMDeBRDMARIsAKrOP7F95hiYWW5hjw8D3lGOwsLCir7IhCQ4aX3qFocoRqmyfkEbyL-9Hj4aAsFeEALw_wcB">Adafruit EZ-Link bluetooth module</a> and a battery pack. We alos needed to organize the wiring and the position of the accelerometer carefully so that everything is secured in place to not move around while the structure is being moved around by the users as well as to get the most accurate / reliable readings from the accelerometer.</p>
+        <img class="mid-img" src="../assets/img/midterm6_bluetooth-connection.jpg">
+        <p>Connecting the Arduino to the EZ-Link Bluetooth module was not as difficult as I thought. We simply had to connect via bluetooth on our computer, then connect to the bluetooth connection on the p5.SerialPort application.</p>
+        <img class="mid-img" src="../assets/img/midterm7_running-on-phone.jpg">
+        <p>Here is when we got our project to run on our phones with serial communication happening via Bluetooth.</p>
+        <img class="mid-img" src="../assets/img/midterm8_final-design-adjustment.jpg">
+        <p>After getting Danny's feedback we decided to make some adjustments to our project. The biggest visual change that we made was to lose the bottle shape. A lot of the feedback that we constantly got from our user testings was that the shape that we had created with the intention of making it look like a bottle ended up looking more like a house. Using rubbing alcohol and careful box cutter scoring, we were able to remove the top part.</p>
+        <img class="mid-img" src="../assets/img/midterm9_final-design.jpg">
+        <p>We also finished up covering up the front acrylic with black matte paper. We also decided to cover up the two sides with black matte paper as well to help the hologram appear more visibly. Danny also had a good suggestion about putting a piece of paper with an illustration of a scene on the back side of the structure, to give the maximum clear view of the hologram as well as to play with the juxtapositioning of the hologram and the imagery, but for this iteration of the project, we decided to leave the context / placement of the hologram more open ended. We decided to leave the hologram more as a "floating ghost". Above is a photo of the finished structure.</p>
+        <p><u>Project Video Documentation</u>:</p>
+        <div class="video-wrap">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pcBpk85CJBg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <p>Please visit the project's <a class="p-link" target="_blank" href="https://github.com/js6450/trappedSouls">Github Repo</a> for the p5 and Arduino code used for this project.</p>
+    </div>
+    <div id="back-button">
+        <a target="_self" href="../index.html"><span id="back-button-text">BACK TO MAIN</span></a>
+    </div>
+</div>
 </body>
+<script src="../js/background.js"></script>
 </html>
