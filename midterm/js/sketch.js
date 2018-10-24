@@ -430,7 +430,7 @@ class Particle{
     display(){
         push();
         translate(this.pos.x, this.pos.y);
-        //rotate(frameCount * this.aSpeed);
+        rotate(frameCount * this.aSpeed);
 
         if(this.currentA < this.a){
             this.currentA += 2;

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="debfa055-d993-4aa2-b079-65c6ca0741ce" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/midterm/js/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/midterm/js/sketch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weekly/7.html" beforeDir="false" afterPath="$PROJECT_DIR$/weekly/7.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="101" lean-forward="true" selection-start-line="33" selection-start-column="101" selection-end-line="33" selection-end-column="101" />
+            <state relative-caret-position="381">
+              <caret line="36" column="100" lean-forward="true" selection-start-line="36" selection-start-column="100" selection-end-line="36" selection-end-column="100" />
             </state>
           </provider>
         </entry>
@@ -30,17 +30,8 @@
       <file leaf-file-name="7.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/weekly/7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="37" column="632" selection-start-line="37" selection-start-column="632" selection-end-line="37" selection-end-column="632" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6a.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weekly/6a.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="115" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="115" />
+            <state relative-caret-position="332">
+              <caret line="76" column="112" selection-start-line="76" selection-start-column="112" selection-end-line="76" selection-end-column="112" />
             </state>
           </provider>
         </entry>
@@ -57,8 +48,8 @@
       <file leaf-file-name="sketch.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/midterm/js/sketch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="342" column="45" selection-start-line="342" selection-start-column="45" selection-end-line="342" selection-end-column="45" />
+            <state relative-caret-position="-38">
+              <caret line="432" column="8" selection-start-line="432" selection-start-column="8" selection-end-line="432" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -83,6 +74,7 @@
       <find>console.log</find>
       <find>synth</find>
       <find>s</find>
+      <find>feather</find>
       <find>scale</find>
     </findStrings>
   </component>
@@ -106,8 +98,8 @@
         <option value="$PROJECT_DIR$/weekly/6a.html" />
         <option value="$PROJECT_DIR$/midterm/js/videoPixelate.js" />
         <option value="$PROJECT_DIR$/midterm/index.html" />
-        <option value="$PROJECT_DIR$/midterm/js/sketch.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/midterm/js/sketch.js" />
         <option value="$PROJECT_DIR$/weekly/7.html" />
       </list>
     </option>
@@ -139,6 +131,17 @@
             <path>
               <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhysicalComputing" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PhysicalComputing" type="b2602c69:ProjectViewProjectNode" />
@@ -213,12 +216,12 @@
       <workItem from="1539368219592" duration="26504000" />
       <workItem from="1539973767559" duration="17356000" />
       <workItem from="1540315128209" duration="1490000" />
-      <workItem from="1540338521222" duration="13174000" />
+      <workItem from="1540338521222" duration="16914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79802000" />
+    <option name="totallyTimeSpent" value="83542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -232,7 +235,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4311828" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24623656" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -561,10 +564,24 @@
     <entry file="file://$PROJECT_DIR$/assets/img/midterm0_3axis-test.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/weekly/6a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="115" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="101" lean-forward="true" selection-start-line="33" selection-start-column="101" selection-end-line="33" selection-end-column="101" />
+        <state relative-caret-position="381">
+          <caret line="36" column="100" lean-forward="true" selection-start-line="36" selection-start-column="100" selection-end-line="36" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/midterm/js/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="432" column="8" selection-start-line="432" selection-start-column="8" selection-end-line="432" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -575,24 +592,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/midterm/js/sketch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="342" column="45" selection-start-line="342" selection-start-column="45" selection-end-line="342" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weekly/6a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="115" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weekly/7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="37" column="632" selection-start-line="37" selection-start-column="632" selection-end-line="37" selection-end-column="632" />
+        <state relative-caret-position="332">
+          <caret line="76" column="112" selection-start-line="76" selection-start-column="112" selection-end-line="76" selection-end-column="112" />
         </state>
       </provider>
     </entry>
