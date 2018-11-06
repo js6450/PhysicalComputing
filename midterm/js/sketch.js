@@ -6,7 +6,7 @@ let prevValues = [];
 let values = [];
 
 let img;
-let headsTotal = 10;
+let headsTotal = 12;
 let heads = [];
 let headIndex = 0;
 let particles = [];
@@ -30,7 +30,7 @@ let escapeCooldown = 2000;
 
 let s = 2.0;
 
-let debug = true;
+let debug = false;
 let xSound, ySound;
 let eSound;
 let eSoundPlayed = false;
@@ -170,7 +170,7 @@ function draw(){
     yMin = -scaledHeight / 2;
     yMax = scaledHeight / 2;
 
-    if(debug){
+/*    if(debug){
         fill(255);
         text("xWind: " + xWind, width - 100, 50);
         text("xPos: " + values[0], width - 100, 70);
@@ -182,7 +182,7 @@ function draw(){
         text("yPos: " + values[1], width - 100, 150);
 
         text("attempt: " + escapeAttempt, width - 100, 170);
-    }
+    }*/
 
 
     if(!escape){
@@ -331,6 +331,8 @@ function initParticles(){
     // }
 
     headIndex = int(random(headsTotal));
+    //headIndex = 10;
+
 
     console.log(headIndex);
 
@@ -417,7 +419,7 @@ class Particle{
         }else{
             f = p5.Vector.sub(createVector(escapeX, escapeY), this.pos);
         }
-        f.normalize().mult(1.2);
+        f.normalize().mult(1.0);
         this.acc.add(f);
     }
 
@@ -445,21 +447,21 @@ class Particle{
     checkBoundaries(){
 
         if(!escape){
-            if(this.pos.x < xMin){
-                this.pos.x = xMin;
-                this.vel.x *= -1;
-            }else if(this.pos.x > xMax){
-                this.pos.x = xMax;
-                this.vel.x *= -1;
-            }
-
-            if(this.pos.y < yMin){
-                this.pos.y = yMin;
-                this.vel.y *= -1;
-            }else if(this.pos.y > yMax){
-                this.pos.y = yMax;
-                this.vel.y *= -1;
-            }
+            // if(this.pos.x < xMin){
+            //     this.pos.x = xMin;
+            //     this.vel.x *= -1;
+            // }else if(this.pos.x > xMax){
+            //     this.pos.x = xMax;
+            //     this.vel.x *= -1;
+            // }
+            //
+            // if(this.pos.y < yMin){
+            //     this.pos.y = yMin;
+            //     this.vel.y *= -1;
+            // }else if(this.pos.y > yMax){
+            //     this.pos.y = yMax;
+            //     this.vel.y *= -1;
+            // }
         }else{
             if(this.pos.x > xMax || this.pos.x < xMin|| this.pos.y > yMax || this.pos.y < yMin){
                 this.isDead = true;
