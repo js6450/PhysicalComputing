@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="debfa055-d993-4aa2-b079-65c6ca0741ce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/weekly/9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekly/10.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/midterm/assets/img/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/midterm/assets/img/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/midterm/js/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/midterm/js/sketch.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,17 +21,26 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+            <state relative-caret-position="611">
+              <caret line="48" column="100" selection-start-line="48" selection-start-column="100" selection-end-line="48" selection-end-column="100" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="9.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="10.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weekly/10.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="9.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weekly/9.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+            <state relative-caret-position="266">
+              <caret line="42" selection-start-line="42" selection-end-line="60" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -41,7 +48,7 @@
       <file leaf-file-name="7.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weekly/7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
+            <state relative-caret-position="855">
               <caret line="57" column="188" selection-end-line="94" selection-end-column="7" />
             </state>
           </provider>
@@ -88,8 +95,9 @@
         <option value="$PROJECT_DIR$/midterm/index.html" />
         <option value="$PROJECT_DIR$/weekly/7.html" />
         <option value="$PROJECT_DIR$/midterm/js/sketch.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/weekly/9.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/weekly/10.html" />
       </list>
     </option>
   </component>
@@ -102,7 +110,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="840" />
     <option name="height" value="1027" />
@@ -112,7 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,6 +146,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,18 +197,19 @@
       <workItem from="1539973767559" duration="17356000" />
       <workItem from="1540315128209" duration="1490000" />
       <workItem from="1540338521222" duration="21123000" />
-      <workItem from="1541520720512" duration="1187000" />
+      <workItem from="1541520720512" duration="1591000" />
+      <workItem from="1542221435329" duration="1371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88938000" />
+    <option name="totallyTimeSpent" value="90713000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="840" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31990233" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16214587" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -226,13 +235,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/weekly/7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="188" lean-forward="true" selection-start-line="57" selection-start-column="188" selection-end-line="57" selection-end-column="188" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/midterm/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -503,9 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="22" lean-forward="true" selection-end-line="750" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,24 +558,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/weekly/7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        <state relative-caret-position="855">
+          <caret line="57" column="188" selection-end-line="94" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weekly/7.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="57" column="188" selection-end-line="94" selection-end-column="7" />
+        <state relative-caret-position="611">
+          <caret line="48" column="100" selection-start-line="48" selection-start-column="100" selection-end-line="48" selection-end-column="100" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weekly/9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        <state relative-caret-position="266">
+          <caret line="42" selection-start-line="42" selection-end-line="60" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weekly/10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
         </state>
       </provider>
     </entry>

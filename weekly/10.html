@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Jiwon Shin | Physical Computing</title>
+<link href="../favicon.ico" rel="icon" type="image/x-icon" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+</head>
+<body>
+<div id="content">
+    <div id="page-content">
+        <h5 class="entry-title">Week 10: Final Project Progress & BOM</h5>
+        <p class="date-text">Nov 14, 2018</p>
+        <p>This week, <a class="p-link" href="https://rashidakamal.com/blog/">Rashida</a> and I went on a hunt for materials to make our "jacket" to the garment district at Moods fabric. We were looking at what fabrics that we could use to elevate the sense of touch and movement. We looked into two-sided sequins that we could use for some areas of the jacket.</p>
+        <img class="mid-img" src="../assets/img/final-materials.jpg">
+        <p>We also brought the multimeter to the fabric store to see if there were any other conductive materials to use to create into capacitive touch sensors, but unfortunately, most "metal" buttons that they had were either not conductive at all or conducting very minimal electricity. So we decided to not get any.</p>
+        <img class="mid-img" src="../assets/img/final-material-test.jpg">
+        <p>Below is a screenshot of our bill of materials spreadsheet so far:</p>
+        <img class="mid-img" src="../assets/img/final-bom.jpg">
+        <p>For the product testing for this week's class, we made a simple version of our jacket. We used the scrap fabric that we found at the soft lab and made a shirt and Rashida sewed conductive thread onto the shirt. We then connected the conductive thread to a flexible wire then connected to the MPR121 Capacitive Touch breakout board.</p>
+        <p>We also chose some sounds to put use for sound samples to be triggered upon touch, then wrote a very simple p5.sound sketch that triggers it.</p>
+        <div class="video-wrap">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sMC1KxbaB9Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>We are keeping all of our code in this <a class="p-link" href="https://github.com/js6450/pComp-final">project github repo</a>.</p>
+        <hr>
+        <p><u>Plans for next two weeks</u>:</p>
+        <ul>
+            <li>Figure out how to network the two lilypads together</li>
+            <li>Make the two base jackets / shirts</li>
+            <li>Identify textural patterns & practice embroidery skills</li>
+            <li>Add conductive sequins to the sequins fabric we purchased</li>
+            <li>Create more audio files</li>
+        </ul>
+    </div>
+    <div id="back-button">
+        <a target="_self" href="../index.html"><span id="back-button-text">BACK TO MAIN</span></a>
+    </div>
+</div>
+</body>
+<script src="../js/background.js"></script>
+</html>
