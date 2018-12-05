@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="debfa055-d993-4aa2-b079-65c6ca0741ce" name="Default" comment="" />
+    <list default="true" id="debfa055-d993-4aa2-b079-65c6ca0741ce" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekly/musicbetweenus.html" beforeDir="false" afterPath="$PROJECT_DIR$/weekly/musicbetweenus.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,16 +21,25 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="611">
-              <caret line="48" column="100" selection-start-line="48" selection-start-column="100" selection-end-line="48" selection-end-column="100" />
+              <caret line="48" column="104" selection-start-line="48" selection-start-column="104" selection-end-line="48" selection-end-column="104" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/weekly/10.html">
+      <file leaf-file-name="musicbetweenus.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weekly/musicbetweenus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+            <state relative-caret-position="390">
+              <caret line="17" column="214" selection-start-line="17" selection-start-column="214" selection-end-line="17" selection-end-column="214" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="week10.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weekly/week10.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="45" lean-forward="true" selection-end-line="42" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -35,7 +47,7 @@
       <file leaf-file-name="9.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weekly/9.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="630">
               <caret line="42" selection-start-line="42" selection-end-line="60" selection-end-column="13" />
             </state>
           </provider>
@@ -94,6 +106,9 @@
         <option value="$PROJECT_DIR$/weekly/9.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/weekly/10.html" />
+        <option value="$PROJECT_DIR$/weekly/final-proposal.html" />
+        <option value="$PROJECT_DIR$/weekly/touch.html" />
+        <option value="$PROJECT_DIR$/weekly/musicbetweenus.html" />
       </list>
     </option>
   </component>
@@ -106,9 +121,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="840" />
+    <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
@@ -194,15 +209,17 @@
       <workItem from="1540315128209" duration="1490000" />
       <workItem from="1540338521222" duration="21123000" />
       <workItem from="1541520720512" duration="1591000" />
-      <workItem from="1542221435329" duration="1600000" />
+      <workItem from="1542221435329" duration="1769000" />
+      <workItem from="1544021583969" duration="2614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90942000" />
+    <option name="totallyTimeSpent" value="93725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16214587" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -230,13 +247,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/midterm/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/midterm/js/sketch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4785">
@@ -560,24 +570,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="48" column="100" selection-start-line="48" selection-start-column="100" selection-end-line="48" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weekly/9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="630">
           <caret line="42" selection-start-line="42" selection-end-line="60" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weekly/10.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        <state relative-caret-position="611">
+          <caret line="48" column="104" selection-start-line="48" selection-start-column="104" selection-end-line="48" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weekly/week10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="45" lean-forward="true" selection-end-line="42" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weekly/musicbetweenus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="17" column="214" selection-start-line="17" selection-start-column="214" selection-end-line="17" selection-end-column="214" />
         </state>
       </provider>
     </entry>
