@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Jiwon Shin | Physical Computing</title>
+<link href="../favicon.ico" rel="icon" type="image/x-icon" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+</head>
+<body>
+<div id="content">
+    <div id="page-content">
+        <h5 class="entry-title">Music Between Us</h5>
+        <p class="date-text">Dec 12, 2018</p>
+        <p>In collaboration with <a class="p-link" href="https://rashidakamal.com/blog/">Rashida Kamal</a>.</p>
+        <p>There were many turns and detours between our initial prototype and the finished, wearable-playable-musical prototype. After our initial playtesting, we had a good sense of how our MPR121 would work with our conductive thread and stitching patterns. We only had to actually make the jackets! We began by ideating on potential designs for the embroidery. We had previously identified regions of touch, to differentiate between areas that would connote casual versus intimate touch.
+        </p>
+        <img class="mid-img" src="../assets/img/1.JPG">
+        <p>We used those regions to guide to where we would place embroidered areas on our jacket design. We came up with the following design to use as a guideline in our construction processes.</p>
+        <div class="two-grid">
+            <img class="two-grid-img" src="../assets/img/2.png">
+            <img class="two-grid-img" src="../assets/img/3.PNG">
+        </div>
+        <p>Next, we began construction of our jackets. We took a great deal of guidance from Idit Barak and Sandy Hsieh, both of whom had previous experience making clothing. Based on their advice, we decided to trace the shape of one of our own jackets onto test fabric as the basis of our sewing pattern. We then cut out this fabric, and then traced that shape onto paper. This process allowed us to clean up some of the curves and lines that made up the shape of our jacket, as well as ensure symmetry where necessary.</p>
+        <img class="mid-img" src="../assets/img/4.JPG">
+        <p>When we had a complete set of paper patterns, we did final trace and cut our selected fabric. We cut two sets of the pattern for our pair of jackets. At earlier point in our project, we had intended to each design one of the jackets. We realized it would be easier if one person did the portions of the jackets, both for the sake of uniformity and ease of construction. We split the work into front and back + sleeves.</p>
+        <img class="mid-img" src="../assets/img/5.JPG">
+        <p>We soon found that the embroidery took quite a bit of time. There were stitching patterns that we hoped to implement because of their textural qualities that were simply too time consuming to use throughout the piece (the shop sewing machine does not take kindly to the conductive thread). In order to assemble the jacket, we first connected the seams using fusible fabric tape and then ran the seams (with a great deal of effort and frustration) on Singer Simple sewing machine.</p>
+        <img class="mid-img" src="../assets/img/6.JPG">
+        <p>Alongside the manual labor of making the jackets, we also had to figure out a good amount work on our technical side. In our playtest, we had our MPR121 connected to our Arduino Uno, but for the final jackets, an Uno would be too bulky and uncomfortable. Additionally, we wanted both jackets to be able to communicate with a web server that was playing a soundscape. We examined a range of other microcontroller boards that would allow a Bluetooth connection including the Lilypad + XBee, Bluefruit EZ-Link, and a Bluefruit Feather 32u4.
+        </p>
+        <img class="mid-img" src="../assets/img/7.JPG">
+        <p>We ended up testing the Bluefruit EZ-Link and the Feather with the Web Bluetooth API. One of the initial challenges of using the API was identifying the correct UUIDs associated with our boards. We finally found the correct UUID on a Hackster tutorial. Beyond that point, the sample code was pretty helpful, and soon we were able to use the UART protocol to send data from the Bluefruit and Feather back to our server. To simplify matters, we decided to move forward with two Feathers for each jacket, each communicating with an MPR121 breakout board and powered by a lithium ion polymer battery.
+        </p>
+        <img class="mid-img" src="../assets/img/8.JPG">
+        <p>One the issues we encountered was that the MPR121 would periodically become unresponsive. In order to solve this, we are manually resetting the board every 8 seconds in order to keep it alive between pauses in interaction. Jiwon spent a great deal of time perfecting this process into something more robust.</p>
+        <p>Even with the programmatic side was correctly working, we found that there was some work to be done with physical troubleshooting. We had sewn the Feather and the MPR121 onto a bit of canvas to be attached to our jacket. We had sewn conductive thread into pins of each of the boards. Unfortunately, during user testing, some of these threads had inadvertently come into contact, causing nothing to work. Since that experience, we have resewn the connections, and added strategically placed bits of hot glue to insulate the most critical junctures.</p>
+        <p> The electronics of the jackets are enclosed in panels of canvas, velcro-ed shut on the the back of each jacket. Jiwon created a smaller pocket to attach onto the panel to protect our lithium ion battery. The setup makes troubleshooting bit easier, and is both comfortable for the user to wear and unnoticeable from the outside.
+        </p>
+        <img class="mid-img" src="../assets/img/9.JPG">
+        <p>In the end, we had 8 separate regions of embroidery on each of the jackets, each with a 4-second long musical element attached. Jiwon had used GarageBand to create samples of audio using notes from compatible chords of music, and then clipped each sample to avoid sustained sound from singular triggers.
+        </p>
+        <p>You can see a sample of the interaction in our video here:</p>
+        <div class="video-wrap">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vo93FLd53UI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>In our office hours with Danny Rozin, he had suggested imagine potential interaction scenarios in which two users, wearing the jackets, encounter one another. We imagined that the jackets could enable both casual exploration between unfamiliar partners as well as a more uninhibited exploration between friends or lovers. We hope the jackets invite users to explore and play with the boundaries of comfort, in touching and being touched. The piece is also a social experiment in the sense of prompting the users whether their default boundaries of comfort would be altered under the context of art and play.
+        </p>
+    </div>
+    <div id="back-button">
+        <a target="_self" href="../index.html"><span id="back-button-text">BACK TO MAIN</span></a>
+    </div>
+</div>
+</body>
+<script src="../js/background.js"></script>
+</html>
